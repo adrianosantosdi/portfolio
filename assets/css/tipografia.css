@@ -1,0 +1,64 @@
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+h1, h2, h3 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D90404;
+}
+
+h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #F2B705;
+}
+
+h1 {
+    font-size: 600%;
+    font-weight: 200;
+
+}
+
+h2 {
+    font-size: 400%;
+    font-weight: 200;
+}
+
+p, li, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chamado h1 {
+    color: #FFF;
+    text-shadow: 4px 6px 12px #000;
+}
+
+.chamado h4 {
+    font-size: 250%;
+    text-shadow: 4px 6px 12px #000;
+
+
+}
+
+.btn-center {
+    text-align: center;
+}
+
+.btn-escolher {
+    display: inline-block;
+    margin-top: 20px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 110%;
+    padding: 20px 80px;
+    border-radius: 50px;
+    background: #078C31;    
+    background: linear-gradient(rgba(7,140,49,55), rgba(6,89,2,5) 40%, rgba(6,89,2,35) 100%);
+
+}
