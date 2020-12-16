@@ -206,9 +206,35 @@ nav ul li a:hover {
 
 .queijo {
     position: absolute;
-    top: 600px;
+    top: 500px;
     left: 10px;
     width: 160px;
     height: 150px;
     background: url("../img/secao09-queijo.jpg") no-repeat;      
+}
+
+.pizza {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url("../img/secao10-background-secao-pizza.jpg") no-repeat ;
+    background-size: cover;
+    padding: 40px 0 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+}
+
+.pizza-opcoes-mestre {
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.pizza-opcoes {
+    width: 33.33%;
+    text-align: center;
+    margin: 5px 0 ;
 }
