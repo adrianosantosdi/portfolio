@@ -112,6 +112,7 @@ nav ul li a:hover {
 .domingo-perfeito-esq{
     position: relative;
     width: 15%;
+    
 }
 
 .domingo-perfeito-dir {
@@ -126,6 +127,7 @@ nav ul li a:hover {
     flex-wrap: nowrap;
     justify-content: flex-start;    
     align-items: center;
+    
     
 }
 
@@ -170,7 +172,8 @@ nav ul li a:hover {
     left: 0;
     height: 150px;
     height: 150px;
-    background: url("../img/secao09-camarao.jpg") no-repeat;    
+    background: url("../img/camarao.jpg") no-repeat;    
+    background-color: #F2B705;
 }
 
 .folha2 {
@@ -180,6 +183,7 @@ nav ul li a:hover {
     width: 150px;
     height: 150px;
     background: url("../img/secao09-folha2.png");      
+    
 }
 
 .folha3 {
