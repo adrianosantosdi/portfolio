@@ -5,6 +5,10 @@
     box-sizing: border-box;
 } 
 
+html, body {
+    height: 100%;
+}
+
 h1, h2, h3 {
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
@@ -72,6 +76,11 @@ i {
     line-height: 1.9;
     font-size: 90%;
     text-transform: uppercase;
+}
+
+.testemunha .destaque {
+    width: 40%;
+    
 }
 
 

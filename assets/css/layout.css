@@ -238,3 +238,82 @@ nav ul li a:hover {
     text-align: center;
     margin: 5px 0 ;
 }
+
+.testemunha {
+    width: 100%;
+    height: 100%;
+    padding: 40px 0 80px;
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.8), rgba(255,255,255,1)), url("../img/secao11-background-secao-depoimento.png");
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.testemunha-mestre {
+    width: 100%;
+    height: 300px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.testemunha-esquerda, .testemunha-direita {
+    width: 15%;
+    height: 300px;
+    
+}
+
+.testemunha-centro {
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    position: relative;
+    max-width: 1010px;
+}
+
+.testemunhos {
+    position: absolute;
+    left: 0;
+    width: 2680px;
+
+}
+
+.testemunhos ul {
+   display: inline-table;
+   width: 300px;
+   background: #FFF;
+   padding: 30px;
+   margin: 50px 15px;
+   border-radius: 20px;
+   border: 1px solid #ccc; 
+   text-align: center;
+}
+
+.testemunhos ul li {
+    list-style: none;
+    display: inline-table;
+    width: 90%;
+    margin: 0;
+}
+
+.testemunhos ul h5 {
+
+}
+
+.testemunhos ul p {
+    line-height: 1.5;
+    color: #404040;
+    font-size: 90%;
+}
+
+.testemunhos ul img {
+    width: 40%;
+    border-radius: 100%;
+    margin-top: -80px;
+    border: 5px solid #F03733;
+}
