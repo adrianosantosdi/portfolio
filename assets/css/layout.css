@@ -1,13 +1,4 @@
-.teste {
-    background-color: turquoise;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 300px;
-    height: 60px;
-    z-index: 10;
-    color: #000;
-}
+
 
 nav {
     width: 95%;
@@ -233,6 +224,7 @@ nav ul li a:hover {
     justify-content: flex-start;
     align-items: center;
     clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+    
 }
 
 .pizza-opcoes-mestre {
@@ -258,6 +250,7 @@ nav ul li a:hover {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+   
 
 }
 
@@ -274,6 +267,7 @@ nav ul li a:hover {
 .testemunha-esquerda, .testemunha-direita {
     width: 15%;
     height: 300px;
+    cursor: pointer;
     
 }
 
@@ -326,4 +320,95 @@ nav ul li a:hover {
     border-radius: 100%;
     margin-top: -80px;
     border: 5px solid #F03733;
+}
+
+.transicao-testemunha-plana {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+.decoracao1 {
+   width: 30%;
+   height: 100%; 
+   background: url("../img/secao13-tomate-manjericao-alho.jpg") no-repeat top center;
+}
+
+.decoracao2 {
+   width: 30%;
+   height: 100%; 
+   background: url("../img/secao13-azeite.jpg") no-repeat top center;
+}
+
+.decoracao3 {
+    width: 30%;
+    height: 100%; 
+    background: url("../img/secao13-detalhe-tomate.jpg") no-repeat top center;
+}
+
+.plano-principal {
+    width: 100%;
+    padding: 40px 0 80px;
+
+}
+
+.planos-janela {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.planos {
+    width: 250px;
+    height: 450px;
+    margin: 80px 30px;
+}
+
+.planos-top {
+    width: 250px;
+    height: 350px;
+    background-color: #f7f7f7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.planos-bottom {
+    width: 250px;
+    height: 100px;
+    background-color: #078C31 ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.plano-principal h4 {
+    color: #D90404;
+}
+
+.plano-principal ul {
+    margin-top: 25px;
+}
+
+.plano-principal ul li {
+    font-size: 85%;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.planos-bottom p {
+    color: #FFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+    cursor: pointer;
 }
