@@ -84,6 +84,18 @@ i {
     
 }
 
+footer ul {
+    margin-left: 15px;
+}
 
+footer li {
+    list-style: none;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+footer i {
+    color: #FFF;
+}
 
 
