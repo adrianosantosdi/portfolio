@@ -56,11 +56,19 @@ p.destaque {
 .chamado h1 {
     color: #FFF;
     text-shadow: 4px 6px 12px #000;
+    animation-name: HeaderH1-moverParaDireita;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 .chamado h4 {
     font-size: 250%;
     text-shadow: 4px 6px 12px #000;
+    animation-name: HeaderH4-moverParaDireita ;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 i {   
     color: #F03733;

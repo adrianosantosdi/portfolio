@@ -99,7 +99,11 @@ nav ul li a:hover {
     border-radius: 50px;
     background: #078C31;    
     background: linear-gradient(rgba(7,140,49,55), rgba(6,89,2,5) 40%, rgba(6,89,2,35) 100%);
-
+    animation-name: HeaderA-moverParaDireita ;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 .domingo-perfeito {
@@ -165,6 +169,7 @@ nav ul li a:hover {
      width: 150px;
      height: 150px;
      background: url("../img/secao09-folha1.png") no-repeat;     
+     opacity: 0;
 }
 
 .camarao {
@@ -175,6 +180,7 @@ nav ul li a:hover {
     height: 150px;
     background: url("../img/camarao.jpg") no-repeat;    
     background-color: #F2B705;
+    opacity: 0;
 }
 
 .folha2 {
@@ -184,7 +190,7 @@ nav ul li a:hover {
     width: 150px;
     height: 150px;
     background: url("../img/secao09-folha2.png");      
-    
+    opacity: 0;
 }
 
 .folha3 {
@@ -194,6 +200,7 @@ nav ul li a:hover {
     width: 160px;
     height: 150px;
     background: url("../img/secao09-folha3.png") no-repeat;      
+    opacity: 0;
 }
 
 .tomate {
@@ -203,6 +210,7 @@ nav ul li a:hover {
     width: 160px;
     height: 150px;
     background: url("../img/secao09-tomate.png") no-repeat;      
+    opacity: 0;
 }
 
 .queijo {
@@ -212,6 +220,7 @@ nav ul li a:hover {
     width: 160px;
     height: 150px;
     background: url("../img/secao09-queijo.jpg") no-repeat;      
+    opacity: 0;
 }
 
 .pizza {
@@ -459,3 +468,6 @@ footer {
     height: 390px;
     background: url("../img/secao15-pizza-rodape.png") no-repeat;
 }
+
+/* RESPONSIVO TABLET */
+
